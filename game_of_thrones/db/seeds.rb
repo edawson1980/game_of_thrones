@@ -18,6 +18,18 @@ lannister = House.create(name:"House Lannister", symbol:"lion", img_url:"https:/
 
 
 
-harry = Character.create(name: "Harry Potter", img_url:"http://images1.wikia.nocookie.net/__cb20111110202524/harrypotter/images/thumb/d/d4/Dhharryroomhighreso.jpg/250px-Dhharryroomhighreso.jpg", house: gryffindor)
-ron = Character.create(name: "Ron Weasley", img_url:"http://images4.wikia.nocookie.net/__cb20090712085217/harrypotter/images/9/99/Ron_DH.PNG", house: gryffindor)
-hermione = Character.create(name: "Hermione Granger", img_url:"http://images2.wikia.nocookie.net/__cb20120512155742/harrypotter/images/thumb/9/95/DeathlyPromo_Hermione.PNG/250px-DeathlyPromo_Hermione.PNG", house: gryffindor
+ned = Character.create(name:"Eddard Stark", house: stark, img_url:"https://upload.wikimedia.org/wikipedia/en/5/52/Ned_Stark-Sean_Bean.jpg")
+catelyn = Character.create(name:"Lady Catelyn Stark", house: stark, img_url:"https://upload.wikimedia.org/wikipedia/en/2/25/Catelyn_Stark-Michelle_Fairley_S3.jpg")
+jon = Character.create(name: "Jon Snow", house: stark, img_url:"https://www.euruni.edu/blog/wp-content/uploads/2015/07/Jon-Snow-4.jpg")
+
+daenerys = Character.create(name: "Daenerys Targaryen", house: targaryen, img_url:"https://s-media-cache-ak0.pinimg.com/736x/5f/c6/e5/5fc6e554ca8c646e34a02e225195fa89.jpg")
+viserys = Character.create(name: "Viserys Targaryen", house: targaryen, img_url:"http://images.hellogiggles.com/uploads/2016/07/20045910/viserys.jpg")
+khal = Character.create(name: "Khal Drogo", house: targaryen, img_url:"https://www.thesun.co.uk/wp-content/uploads/2017/01/nintchdbpict000162718076.jpg?strip=all&w=639")
+
+robert = Character.create(name: "Robert Baratheon", house: baratheon, img_url:"http://vignette1.wikia.nocookie.net/hieloyfuego/images/e/ee/Robert_Baratheon_HBO.JPG/revision/latest?cb=20120124224134")
+stannis = Character.create(name: "Stannis Baratheon", house: baratheon, img_url:"https://upload.wikimedia.org/wikipedia/en/0/05/Stannis_Baratheon-Stephen_Dillane.jpg")
+renly = Character.create(name: "Renly Baratheon", house: baratheon, img_url:"http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/renly-baratheon-1280.jpg")
+
+jamie = Character.create(name: "Jamie Lannister", house: lannister, img_url:"http://vignette4.wikia.nocookie.net/villains/images/e/eb/Jaime.jpg/revision/latest?cb=20151124212048")
+cersei = Character.create(name: "Cersei Lannister", house: lannister, img_url:"http://vignette2.wikia.nocookie.net/gameofthrones/images/c/c2/CerseiEW.png/revision/latest?cb=20120316191120")
+tyrion = Character.create(name: "Tyrion Lannister", house: lannister, img_url:"http://vignette1.wikia.nocookie.net/gameofthrones/images/6/61/The_children_Tyrion_with_Bow_S4.png/revision/latest?cb=20140616190514")
