@@ -10,6 +10,7 @@ class CharactersController < ApplicationController
 
   def create
     @character = Character.create!(character_params)
+
     redirect_to character_path(@character)
     #redirect to the character path(show page) for that specific character.
   end
@@ -36,7 +37,7 @@ class CharactersController < ApplicationController
     @character = Character.find(params[:id])
     @character.destroy
 
-    redirect_to characters_path
+    redirect_to characters_path(@character)
     #this takes us back out to index view
   end
 
