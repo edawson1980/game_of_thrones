@@ -1,6 +1,9 @@
-<h1><%= @house.name %></h1>
-<h2>Sigil: <%= @house.symbol %></h2>
+<div class="house">
 
-<img src="<%= @house.img_url %>"/>
+  <h1><%= @house.name %></h1>
+  <h2>Sigil: <%= @house.symbol %></h2>
 
-<h2><%= link_to "Edit this house.", edit_house_path(@house) %></h2>
+  <img src="<%= @house.img_url %>"/>
+
+  <h2><%= link_to "Edit this house.", edit_house_path(@house) %></h2>
+</div>

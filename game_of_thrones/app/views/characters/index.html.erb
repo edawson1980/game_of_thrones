@@ -1,6 +1,9 @@
-<h1>Our Main Players</h1>
-<h3>Create new character <%= link_to"(+)", new_character_path %>
-  <% @characters.each do |character| %>
-    <h2><%= link_to character.name, character%></h2>
+<div class="character">
 
-  <% end %>
+  <h1>Our Main Players</h1>
+  <h3>Create new character <%= link_to"(+)", new_character_path %>
+    <% @characters.each do |character| %>
+      <h2><%= link_to character.name, character%></h2>
+
+    <% end %>
+</div>

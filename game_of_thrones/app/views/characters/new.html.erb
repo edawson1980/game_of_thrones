@@ -1,8 +1,10 @@
-<h2>Create a character.</h2>
+<div class="character">
+  <h2>Create a character.</h2>
 
-<%= form_for :character, url: characters_path do |f| %>
-  Name: <%= f.text_field :name %>
-  Likeness: <%= f.text_field :img_url %>
-  Allegiance: <%= f.text_field :house %>
-<%= f.submit %>
-<% end %>
+  <%= form_for :character, url: characters_path do |f| %>
+    Name: <%= f.text_field :name %>
+    Likeness: <%= f.text_field :img_url %>
+    Allegiance: <%= f.text_field :house %>
+  <%= f.submit %>
+  <% end %>
+</div>

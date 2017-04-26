@@ -1,14 +1,16 @@
-<h2>Edit your house here.</h2>
+<div class="house">
+  <h2>Edit your house here.</h2>
 
-<%= form_for @house do |f| %>
-  Name: <%= f.text_field :name %>
-  Sigil: <%= f.text_field :symbol %>
-  Crest: <%= f.text_field :img_url %>
-  <%= f.submit %>
-<% end %>
+  <%= form_for @house do |f| %>
+    Name: <%= f.text_field :name %>
+    Sigil: <%= f.text_field :symbol %>
+    Crest: <%= f.text_field :img_url %>
+    <%= f.submit %>
+  <% end %>
 <!-- #what this says is, pass in whichever particular house as an argument, and form_for will fill out all fields with existing params on existing house. -->
 
-<h3>Delete your house?</h3>
-<%= form_for @house, method: :delete do |f| %>
+  <h3>Delete your house?</h3>
+  <%= form_for @house, method: :delete do |f| %>
   <%= f.submit "Delete!", class: "delete" %>
-<% end %>
+  <% end %>
+</div>

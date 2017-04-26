@@ -1,6 +1,10 @@
-<h1>The Four Main Houses</h1>
-<h3>Create new house <%= link_to"(+)", new_house_path %>
-  <% @houses.each do |house| %>
-    <h2><%= link_to house.name, house%></h2>
+<div class="house">
 
-  <% end %>
+  <h1>The Four Main Houses</h1>
+  <h3>Create new house <%= link_to"(+)", new_house_path %>
+    <% @houses.each do |house| %>
+      <h2><%= link_to house.name, house%></h2>
+
+    <% end %>
+
+  </div>

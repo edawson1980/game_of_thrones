@@ -24,3 +24,56 @@
   font-family: "thrones";
   src: font-url('game_of_thrones.ttf') format("truetype");
 }
+
+body {
+  color: #FFF9EA;
+  background-image: url("http://cdn.fansided.com/wp-content/blogs.dir/385/files/2015/10/Westeros-and-Essos-HBO-version.jpg");
+  background-size: cover;
+  font-family: "thrones";
+  letter-spacing: 2px;
+}
+
+.static {
+  display: flex;
+  background: rgba(57,60,65,.6);
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #FFF9EA;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFF9EA;
+}
+
+img {
+  border-radius: 40%;
+  height: 300px;
+}
+
+.house, .character {
+  background: rgba(57,60,65,.6);
+  margin: 40px, 100px;
+  padding: 50px;
+  text-align: center;
+}
