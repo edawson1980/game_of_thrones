@@ -1,0 +1,14 @@
+<h2>Edit your character here.</h2>
+
+<%= form_for @character do |f| %>
+  Name: <%= f.text_field :name %>
+  Likeness: <%= f.text_field :img_url %>
+  Allegiance: <%= f.text_field :house_id %>
+  <%= f.submit %>
+<% end %>
+<!-- #what this says is, pass in whichever particular character as an argument, and form_for will fill out all fields with existing params on existing character. -->
+
+<h3>Delete your character?</h3>
+<%= form_for @character, method: :delete do |f| %>
+  <%= f.submit "Delete!", class: "delete" %>
+<% end %>

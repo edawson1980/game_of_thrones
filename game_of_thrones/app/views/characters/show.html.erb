@@ -1,0 +1,6 @@
+<h1><%= @character.name %></h1>
+<h2>Allegiance: <%= @character.house.name  %></h2>
+
+<img src="<%= @character.img_url %>"/>
+
+<h2><%= link_to "Edit this character.", edit_character_path(@character) %></h2>
