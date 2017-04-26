@@ -1,0 +1,8 @@
+<h2>Create your own house.</h2>
+
+<%= form_for :house do |f| %>
+  Name: <%= f.text_field :name %>
+  Sigil: <%= f.text_field :symbol %>
+  Crest: <%= f.text_field :img_url %>
+
+<% end %>
