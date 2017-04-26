@@ -10,6 +10,12 @@
 
   <body>
     <h1>Game of Thrones</h1>
+    <nav>
+    <ul>
+      <li><%= link_to "Houses", houses_path %></li>
+      <li><%= link_to "Characters", characters_path %></li>
+    </ul>
+  </nav>
     <%= yield %>
   </body>
 </html>
